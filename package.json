@@ -1,0 +1,19 @@
+{
+  "name": "stox-rewards",
+  "version": "1.0.0",
+  "description": "stox reward process",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "near-api-js": "1.0.0",
+    "swagger-jsdoc": "5.0.1",
+    "swagger-ui-express": "^4.5.0"
+  }
+}
