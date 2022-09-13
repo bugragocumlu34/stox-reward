@@ -32,7 +32,7 @@ app.listen(PORT, (error) =>{
 async function initNear() {
 
     const keyStore = new nearAPI.keyStores.UnencryptedFileSystemKeyStore(
-        `${process.env.HOME}/.near-credentials/`
+        `${process.env.HOME}/api/stox-reward/.near-credentials/`
     );
 
     const connectionConfig = {
